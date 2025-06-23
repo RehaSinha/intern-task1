@@ -1,2 +1,4 @@
 # intern-task1
 sql internship task
+To create the Hospital Management System database, I began by identifying the key entities from the ER diagram: Patient, Doctor, Consultation, Bills, TestReport, OtherEmployee, Management, and Payments. I used MySQL Workbench to write SQL CREATE TABLE scripts for each entity, ensuring that each table had a primary key and appropriate data types. I also defined foreign keys to represent relationships—such as a patient consulting a doctor or having bills and test reports. After saving the script, I executed it in the SQL Editor by connecting to the local MySQL server. MySQL Workbench displayed success messages for each table. 
+To generate the ER diagram, I went to the Database  Reverse Engineer option and selected my database. Workbench automatically created a visual ER diagram showing all tables, primary keys, and relationships with connector lines. This helped verify that the structure matched the original ER model.
